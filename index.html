@@ -13,7 +13,8 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
-
+  <link rel="stylesheet" href="css/ed.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,500,700" rel="stylesheet">
   <meta name="theme-color" content="#fafafa">
 </head>
 
@@ -22,13 +23,165 @@
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+  <header id="parallax" class="banner" data-parallax="scroll" data-image-src="img/bg2.png"> 
+    <ed-container>
+      <nav>
+        <div class="nav--home">
+          <img src="img/logo.svg" alt="Roboto" />
+        </div>
+        <ul id="nav--main">
+          <li><a href="/">About</a></li>
+          <li><a href="/">Services</a></li>
+          <li><a href="/">Blog</a></li>
+          <li><a href="/">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="banner--copy">
+        <h1>Woah, here’s a big heading!</h1>
+        <h2>Here’s a Cool Subhead</h2>
+      </div>
+    </ed-container> 
+  </header>
+
+  <section>
+    <ed-container>
+      <ed-row>
+        <ed-col-half>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse orci nisi, ultrices vitae mauris quis, porttitor condimentum lectus. Nunc nec pretium leo, at bibendum tortor. Pellentesque accumsan bibendum arcu facilisis consectetur.</p>
+        </ed-col-half>
+      </ed-row>
+    </ed-container>
+  </section>
+
+  <section>
+    <ed-container>
+      <ed-grid>
+        <ed-col-third class="grid--item">
+          <div class="grid--item--inner">
+            <div class="grid--item--copy">
+                <p>This is the hover example consectetur adipiscing elit.</p>
+            </div>
+            <div class="grid--item--footer">
+              <p>Subheading</p>
+              <div class="grid--item--footer--actions">
+                <img src="img/clip.svg" alt="Attach" /><!-- using these as img now but in a real site I'll probably put them as objects and change the color etc. on hover -->
+                <img src="img/eye.svg" alt="View" />
+                <img src="img/hear.svg" alt="Favorite" />
+              </div>
+            </div>
+          </div>           
+        </ed-col-third>
+        <ed-col-third class="grid--item">
+          <div class="grid--item--inner">
+            <div class="grid--item--copy">
+                <p>This is the hover example consectetur adipiscing elit.</p>
+            </div>
+            <div class="grid--item--footer">
+              <p>Subheading</p>
+              <div class="grid--item--footer--actions">
+                <img src="img/clip.svg" alt="Attach" /><!-- using these as img now but in a real site I'll probably put them as objects and change the color etc. on hover -->
+                <img src="img/eye.svg" alt="View" />
+                <img src="img/hear.svg" alt="Favorite" />
+              </div>
+            </div>
+          </div>           
+        </ed-col-third>
+        <ed-col-third class="grid--item">
+          <div class="grid--item--inner">
+            <div class="grid--item--copy">
+                <p>This is the hover example consectetur adipiscing elit.</p>
+            </div>
+            <div class="grid--item--footer">
+              <p>Subheading</p>
+              <div class="grid--item--footer--actions">
+                <img src="img/clip.svg" alt="Attach" /><!-- using these as img now but in a real site I'll probably put them as objects and change the color etc. on hover -->
+                <img src="img/eye.svg" alt="View" />
+                <img src="img/hear.svg" alt="Favorite" />
+              </div>
+            </div>
+          </div>           
+        </ed-col-third>
+        <ed-col-third class="grid--item">
+          <div class="grid--item--inner">
+            <div class="grid--item--copy">
+                <p>This is the hover example consectetur adipiscing elit.</p>
+            </div>
+            <div class="grid--item--footer">
+              <p>Subheading</p>
+              <div class="grid--item--footer--actions">
+                <img src="img/clip.svg" alt="Attach" /><!-- using these as img now but in a real site I'll probably put them as objects and change the color etc. on hover -->
+                <img src="img/eye.svg" alt="View" />
+                <img src="img/hear.svg" alt="Favorite" />
+              </div>
+            </div>
+          </div>           
+        </ed-col-third>
+        <ed-col-third class="grid--item">
+          <div class="grid--item--inner">
+            <div class="grid--item--copy">
+                <p>This is the hover example consectetur adipiscing elit.</p>
+            </div>
+            <div class="grid--item--footer">
+              <p>Subheading</p>
+              <div class="grid--item--footer--actions">
+                <img src="img/clip.svg" alt="Attach" /><!-- using these as img now but in a real site I'll probably put them as objects and change the color etc. on hover -->
+                <img src="img/eye.svg" alt="View" />
+                <img src="img/hear.svg" alt="Favorite" />
+              </div>
+            </div>
+          </div>           
+        </ed-col-third>
+        <ed-col-third class="grid--item">
+          <div class="grid--item--inner">
+            <div class="grid--item--copy">
+                <p>This is the hover example consectetur adipiscing elit.</p>
+            </div>
+            <div class="grid--item--footer">
+              <p>Subheading</p>
+              <div class="grid--item--footer--actions">
+                <img src="img/clip.svg" alt="Attach" /><!-- using these as img now but in a real site I'll probably put them as objects and change the color etc. on hover -->
+                <img src="img/eye.svg" alt="View" />
+                <img src="img/hear.svg" alt="Favorite" />
+              </div>
+            </div>
+          </div>           
+        </ed-col-third>
+        <ed-col-third class="grid--item">
+          <div class="grid--item--inner">
+            <div class="grid--item--copy">
+                <p>This is the hover example consectetur adipiscing elit.</p>
+            </div>
+            <div class="grid--item--footer">
+              <p>Subheading</p>
+              <div class="grid--item--footer--actions">
+                <img src="img/clip.svg" alt="Attach" /><!-- using these as img now but in a real site I'll probably put them as objects and change the color etc. on hover -->
+                <img src="img/eye.svg" alt="View" />
+                <img src="img/hear.svg" alt="Favorite" />
+              </div>
+            </div>
+          </div>           
+        </ed-col-third>
+
+      </ed-grid>
+    </ed-container>
+  </section>
+
+  <footer>© 2019 Roboto</footer>
+
+
+
+
+
+
+
   <script src="js/vendor/modernizr-3.7.1.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/parallax.js"></script>
+
+
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
